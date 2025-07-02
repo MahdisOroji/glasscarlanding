@@ -1,0 +1,21 @@
+.headerWrapper{
+    box-shadow: 0 3px 5px #ddd;
+    direction: rtl; 
+}
+
+.header{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.headerLink{
+    cursor: pointer;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #000000; 
+}
+
