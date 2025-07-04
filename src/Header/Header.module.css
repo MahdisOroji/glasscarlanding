@@ -1,21 +1,42 @@
-.headerWrapper{
+.headerWrapper {
     box-shadow: 0 3px 5px #ddd;
-    direction: rtl; 
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header{
+.header {
     display: flex;
     height: 60px;
     text-align: center;
     align-items: center;
     list-style: none;
     padding: 0;
+    margin-right: 60px;
+    
 }
 
-.headerLink{
+.headerLink {
     cursor: pointer;
     margin-left: 40px;
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
 }
 
+.logo{
+    justify-content: end;
+    margin-left: 80px;
+}
+
+.logoImage {
+    width: 200px;   
+    height: auto;   
+    object-fit: contain;  
+  }
+
+  
+  @media screen and (max-width: 425px) {
+    
+      
+  }
+  
