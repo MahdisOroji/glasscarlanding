@@ -8,12 +8,10 @@
 .header {
     display: flex;
     height: 60px;
-    text-align: center;
     align-items: center;
     list-style: none;
     padding: 0;
-    margin-right: 60px;
-    
+    margin-left: 450px;
 }
 
 .headerLink {
@@ -23,20 +21,77 @@
     color: #000000;
 }
 
-.logo{
+.logo {
     justify-content: end;
     margin-left: 80px;
 }
 
 .logoImage {
-    width: 200px;   
-    height: auto;   
-    object-fit: contain;  
-  }
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
 
-  
-  @media screen and (max-width: 425px) {
-    
-      
-  }
-  
+.burgerMenuContainer {
+    margin-top: 30px;
+}
+
+.burgerMenu {
+
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.burgerMenu span {
+    height: 3px;
+    background: #000;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.burgerMenuOption {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center; 
+    gap: 16px;
+}
+
+.burgerMenuOption li {
+    list-style: none;
+}
+
+.burgerLink {
+    cursor: pointer;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: flex;
+    }
+
+}
