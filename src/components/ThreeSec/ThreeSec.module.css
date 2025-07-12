@@ -1,0 +1,63 @@
+.threeSecWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 200px;
+    
+}
+
+.card {
+
+    width: 560px;
+    height: 350px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    padding: 1rem;
+    flex-direction: column;
+ 
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card span {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.imgCard img {
+    border-radius: 20px;
+}
+
+.cardCall{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.callButton {
+    margin-top: 20px; 
+    background-color: #da1d1d;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }

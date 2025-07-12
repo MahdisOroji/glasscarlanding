@@ -6,6 +6,7 @@ import TwoSec from '../components/TwoSec/TwoSec';
 import LinkIcon from '../components/LinkIcon/LinkIcon';
 import ChooseUs from '../components/ChooseUs/ChooseUs';
 import Cards from '../components/Cards/Cards';
+import ThreeSec from '../components/ThreeSec/ThreeSec';
  function Home () {
   return (
     <>
@@ -16,6 +17,7 @@ import Cards from '../components/Cards/Cards';
     <LinkIcon />
     <ChooseUs />
     <Cards />
+    <ThreeSec />
     </>
     
   )
