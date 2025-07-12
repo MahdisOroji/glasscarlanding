@@ -4,6 +4,8 @@ import RedLine from "../components/RedLine/RedLine"
 import OneSec from '../components/OneSec/OneSec';
 import TwoSec from '../components/TwoSec/TwoSec';
 import LinkIcon from '../components/LinkIcon/LinkIcon';
+import ChooseUs from '../components/ChooseUs/ChooseUs';
+import Cards from '../components/Cards/Cards';
  function Home () {
   return (
     <>
@@ -12,6 +14,8 @@ import LinkIcon from '../components/LinkIcon/LinkIcon';
     <OneSec />
     <TwoSec />
     <LinkIcon />
+    <ChooseUs />
+    <Cards />
     </>
     
   )
