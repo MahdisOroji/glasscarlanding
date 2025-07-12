@@ -1,0 +1,28 @@
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+.redLine{
+    background-color: #da1d1d;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    height: 3%;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+}
+.blinking {
+    animation: blink 1s infinite;
+  }
+
+
+
+

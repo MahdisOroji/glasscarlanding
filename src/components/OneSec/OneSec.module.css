@@ -1,0 +1,19 @@
+.mainBanner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.off {
+    background-color: #da1d1d;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+
+
+
+}

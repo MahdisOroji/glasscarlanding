@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Styled from "../Header/Header.module.css"
-import Logo from "../assets/Image/autoglass_canada_1.webp"
+import Styled from "./Header.module.css"
+import Logo from "../../assets/Image/autoglass_canada_1.webp"
 
 const Header = () => {
 
@@ -46,8 +46,6 @@ const Header = () => {
             <div className={Styled.logo}>
                 <img src={Logo} alt="" className={Styled.logoImage} />
             </div>
-
-
         </div>
 
 
