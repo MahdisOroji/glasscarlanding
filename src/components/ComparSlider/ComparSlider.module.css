@@ -1,0 +1,43 @@
+.comparSlider {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* فاصله بین دو اسلایدر */
+    margin: 10rem auto 2rem auto;
+    padding: 0 2rem; /* فاصله از لبه‌های صفحه */
+    flex-wrap: wrap;
+    max-width: 1280px; /* یا هر مقداری که منطقیه */
+  }
+  .slider, .sliderSec {
+    flex: 1 1 48%;
+    max-width: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background-color: transparent; /* یا حذف کامل این خط */
+    padding: 0;
+  }
+  
+  .slider:hover, .sliderSec:hover {
+    transform: scale(1.01);
+  }
+  
+  /* اگر خود تصویرها گوشه‌گرد نمی‌شن: */
+  .slider img, .sliderSec img {
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .slider:hover, .sliderSec:hover {
+    transform: scale(1.01); /* افکت خیلی لطیف روی هاور */
+  }
+  .comparison {
+    border-radius: 12px;
+    background-color: transparent !important;
+    overflow: hidden;
+  }
+  
+  

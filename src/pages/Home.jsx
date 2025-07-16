@@ -7,6 +7,7 @@ import LinkIcon from '../components/LinkIcon/LinkIcon';
 import ChooseUs from '../components/ChooseUs/ChooseUs';
 import Cards from '../components/Cards/Cards';
 import ThreeSec from '../components/ThreeSec/ThreeSec';
+import ComparSlider from '../components/ComparSlider/ComparSlider';
  function Home () {
   return (
     <>
@@ -18,6 +19,7 @@ import ThreeSec from '../components/ThreeSec/ThreeSec';
     <ChooseUs />
     <Cards />
     <ThreeSec />
+    <ComparSlider />
     </>
     
   )
