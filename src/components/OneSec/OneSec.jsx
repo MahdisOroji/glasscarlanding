@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from "../../assets/Image/mainbanner.webp"
+import Banner from "../../assets/Image/pictures/cardarks.png"
 import Styled from "../OneSec/OneSec.module.css"
 
 const OneSec = () => {

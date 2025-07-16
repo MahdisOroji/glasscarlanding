@@ -3,6 +3,7 @@
     direction: rtl;
     display: flex;
     justify-content: space-between;
+    background-color: #0B1B2A
 }
 
 .header {
@@ -18,7 +19,7 @@
     cursor: pointer;
     margin-left: 40px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 .logo {
